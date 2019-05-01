@@ -17,6 +17,14 @@ step), feature extraction:
                      data/prepared data/features
 ```
 
+<troubleshoot>
+
+### Expand to troubleshoot if this stage fails ...
+
+Be aware that the second stage is using about 4Gb of RAM during featurization. If this stage fails, free up more memory and try again
+
+</troubleshoot>
+
 The third stage, training:
 
 ```dvc
